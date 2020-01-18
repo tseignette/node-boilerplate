@@ -1,0 +1,27 @@
+{
+  "name": "node-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate to start a Node.js API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start:dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tseignette/node-boilerplate.git"
+  },
+  "author": "tseignette",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/tseignette/node-boilerplate/issues"
+  },
+  "homepage": "https://github.com/tseignette/node-boilerplate#readme",
+  "dependencies": {
+    "@hapi/hapi": "^19.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

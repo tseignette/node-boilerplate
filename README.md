@@ -1,2 +1,4 @@
-# node-boilerplate
-Boilerplate to start a Node.js with MySQL project
+# Node boilerplate
+
+## Libraries included
+**hapi** is included to handle the API and **Sequelize** to handle the database.
