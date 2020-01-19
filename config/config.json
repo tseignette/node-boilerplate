@@ -1,4 +1,32 @@
 {
-  "host": "localhost",
-  "port": 3000
+  "development": {
+    "serverHost": "localhost",
+    "serverPort": 3000,
+    "username": "root",
+    "password": null,
+    "database": "database_development",
+    "port": 8889,
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "test": {
+    "serverHost": "localhost",
+    "serverPort": 3000,
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "port": 8889,
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "production": {
+    "serverHost": "localhost",
+    "serverPort": 3000,
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "port": 8889,
+    "host": "localhost",
+    "dialect": "mysql"
+  }
 }
