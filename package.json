@@ -2,11 +2,24 @@
   "name": "node-boilerplate",
   "version": "1.0.0",
   "description": "Boilerplate to start a Node.js API",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "start:dev": "nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "start:dev": "nodemon src/index.js",
+    "test": "jest --watchAll",
+    "test:coverage": "jest --coverage"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "*.test.js"
+    ]
+  },
+  "jest": {
+    "verbose": true,
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/**/index.js"
+    ]
   },
   "repository": {
     "type": "git",
@@ -25,6 +38,7 @@
     "sequelize-cli": "^5.5.1"
   },
   "devDependencies": {
+    "jest": "^24.9.0",
     "nodemon": "^2.0.2"
   }
 }

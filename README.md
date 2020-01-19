@@ -1,11 +1,15 @@
 # Node boilerplate
 
 ## Libraries included
-**hapi** is included to handle the API and **Sequelize** to handle the database.
+- API: **hapi**
+- database: **Sequelize**
+- tests: **Jest**
 
 ## Usage
 - start the server: `npm start`
 - start the server in development mode (with *nodemon*): `npm run start:dev`
+- start tests: `npm test`
+- run coverage test: `npm run test:coverage`
 
 ### Sequelize
 - create a model with its migration: `npx sequelize-cli model:generate --name User --attributes id:integer`
