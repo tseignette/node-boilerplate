@@ -33,6 +33,9 @@
   "homepage": "https://github.com/tseignette/node-boilerplate#readme",
   "dependencies": {
     "@hapi/hapi": "^19.0.5",
+    "@hapi/inert": "^6.0.1",
+    "@hapi/vision": "^6.0.0",
+    "hapi-swagger": "^12.0.0",
     "mysql2": "^2.1.0",
     "sequelize": "^5.21.3",
     "sequelize-cli": "^5.5.1"

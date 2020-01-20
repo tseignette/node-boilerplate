@@ -4,6 +4,7 @@
 - API: **hapi**
 - database: **Sequelize**
 - tests: **Jest**
+- documentation: **hapi-swagger**
 
 ## Usage
 - start the server: `npm start`

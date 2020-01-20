@@ -4,6 +4,11 @@ module.exports = {
 
   method: 'GET',
   path: '/',
-  handler: (request, h) => { return 'Hello World!' },
+  options: {
+    description: 'User welcoming',
+    notes: 'Returns a welcoming message to the user',
+    tags: [ 'api' ],
+    handler: (request, h) => { return 'Hello World!' },
+  },
 
 };
